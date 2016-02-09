@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/filerow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/loadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Load File" >
+        </Button>
+
+        <TextView
+            android:id="@+id/fileText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loadButton"
+            android:text="FileName" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/mdfive"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MD5" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/fileSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="File Size In Megabytes" >
+    </TextView>
+
+    <TableRow
+        android:id="@+id/buttonrow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/splitbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="Split" />
+
+        <Button
+            android:id="@+id/joinbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="Join" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/splitsizeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Split Size In Megabytes:" />
+
+    <EditText
+        android:id="@+id/splitsize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:numeric="decimal"
+        android:text="1" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/advancedusSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Advanced Users Only:" >
+    </TextView>
+
+    <Button
+        android:id="@+id/multijoinbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:text="Multi-File Join" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="60dp"
+        android:text="Disk Usage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="true" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Used:"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="1000"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Free:"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:text="5000"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</LinearLayout>
