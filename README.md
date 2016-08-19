@@ -1,7 +1,7 @@
 # Fast-file-transfer
 This project is developed as part of Operating system course.This project majorly consist of two parts :<br>
-**1.Android application** <i>(written in java)</i><br>
-**2.FTP server** <i>(written in python)</i><br><br>
+**1. Android application** <i>(written in java)</i><br>
+**2. FTP server** <i>(written in python)</i><br><br>
 ##Android Application<br>
 Android application is based upon the concept of file splitter and joiner.As user upload file to application, it breaks into several parts.For example if we have file of 1000mb then our app will split it into 10 parts of 100mb each(user can chose in what size it actually wants to break the files).The idea behind it was that, it is easier to download a 100mb files into
 10 parts than directly downloading 1000mb, specially on the low network connectivity.
@@ -13,7 +13,7 @@ P.S- We have used an application named AndFTP to upload and download individual 
 
 **Important Note** : Instructions to do all the setup has been given in the setip_instructions.pdf file.
 
-**Contributors :**<br>
+**Developers :**<br>
 
-**Android Application** : Developed by **Vishwajeet Srivastava**(myself) and **Swapnil Garg** <br>
-**Ftp Server** : Developed by **Palansh Agarwal** and **Shivam Mathur**
+**Android Application** : Developed by **[Vishwajeet Srivastava](https://github.com/vjs3) <br>
+**Ftp Server** : Developed by **Palansh Agarwal**
