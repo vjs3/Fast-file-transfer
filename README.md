@@ -13,7 +13,7 @@ P.S- We have used an application named AndFTP to upload and download individual 
 
 **Important Note** : Instructions to do all the setup has been given in the setip_instructions.pdf file.
 
-**Developers :**<br>
+**Developers** :
 
 **Android Application** : Developed by **[Vishwajeet Srivastava](https://github.com/vjs3) <br>
 **Ftp Server** : Developed by **Palansh Agarwal**
