@@ -11,9 +11,9 @@ Once application break media files into several part the role of ftp server come
 
 P.S- We have used an application named AndFTP to upload and download individual parts of file to and from ftp server.
 
-**Important Note** : Instructions to do all the setup has been given in the setip_instructions.pdf file.
+**Important Note** : Instructions to do all the setup has been given in the setop_instructions.pdf file.
 
-**Developers** :
+##Developers :
 
 **Android Application** : Developed by **[Vishwajeet Srivastava](https://github.com/vjs3) <br>
-**Ftp Server** : Developed by **Palansh Agarwal**
+Ftp Server** : Developed by **Palansh Agarwal**
