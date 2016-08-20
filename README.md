@@ -16,4 +16,4 @@ P.S- We have used an application named AndFTP to upload and download individual 
 ##Developers :
 
 **Android Application** : Developed by **[Vishwajeet Srivastava](https://github.com/vjs3) <br>
-FTP Server** : Developed by **[Palansh Agarwal](https://github.com/py-geek)
+FTP Server** : Developed by **[Palansh Agarwal](https://github.com/py-geek)**
