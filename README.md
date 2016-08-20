@@ -11,9 +11,9 @@ Source code for the android application can be found by **File_Split_Join** fold
 Once application break media files into several part the role of ftp server comes.We have used ftp server to upload all the parts individually so that user can download files remotely.After files being uploaded on the server, user can now download the individual part into the their device and our app will join all the individual parts to one single item.<br>
 Source code for FTP server can be found in **server** section of the project.
 
-P.S- We have used an application named AndFTP to upload and download individual parts of file to and from ftp server.
+P.S- We have used an application named AndFTP to upload and download individual parts of the file to and from FTP server.
 
-**Important Note** : Instructions to do all the setup has been given in the setop_instructions.pdf file.
+**Important Note** : Instructions to do all the setup has been given in the setup_instructions.pdf file.
 
 ##Developers :
 
